@@ -1,0 +1,169 @@
+/*-----------------------------------*/
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/*----------------------------------------------*/
+
+body{
+	width: 1024px;
+	background-color: #009999;
+}
+
+/*----------------------------------------------*/
+hr{
+	width: 65%;
+	background: #009999;
+	height: 2px;
+}
+
+/*----------------------------------------------*/
+header{
+	width: 1024px;
+	background-color: #ddd;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+/*----------------------------------------------*/
+#logo{
+	width: 160px;
+	height: 160px;
+	float: left;
+	background-color: #0088A1;
+	border-radius: 100px;
+	margin: 15px 0 0 20px;
+	font-family: arial;
+}
+
+#logo h1{
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: -6px;
+	font-size: 40px;
+	color: #ddd;
+}
+
+#logo span{
+	font-family: Blackadder ITC;
+	font-size: 28px;
+	font-style: italic;
+	margin: 65px;
+	color: #FFFF66;
+}
+
+
+/*----------------------------------------------*/
+
+#titulo{
+	text-align: center;
+	font-family: Calibri;
+	color: #777777;
+}
+
+/*----------------------------------------------*/
+header nav{
+width: 1024px;
+height: 70px;
+margin-top: 50px;
+text-align: center;
+}	
+
+nav ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+nav ul li a{
+	border-radius: 15px;
+	text-decoration: none;
+	background-color: #079;
+	color: #ffffff;
+	padding: 8px;
+	margin: 3px;
+
+}
+ 
+nav ul li a:hover {
+	background-color: #059; 
+	transition:background-color 2s;
+}
+/*----------------------------------------------*/
+
+section #content{
+	width: 1024px;
+}
+
+#baner{
+	width: 1024px;
+	height: 350px;
+	margin: 30px 0 0 0;
+	border-radius: 12px;
+}
+
+#left{
+	width: 320px;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+#center{
+	width: 320px;
+	float: left;
+	margin: 10px 20px 10px 10px;
+}
+
+#right{
+	width: 320px;
+	float: left;
+	margin: 10px 0 10px 10px;
+}
+
+#left, #center, #right img{
+	width: 320px;
+	height: 162px;
+	border-radius: 10px;
+}
+
+.title{
+	font-family: Verdana;
+	font-size: 22px;
+	text-align: center;
+}
+
+.texto{
+	font-family: Arial;
+	font-size: 16px;
+	text-align: left;
+	padding: 5px;
+}
+
+a{
+text-decoration: none;
+color: #ccc;
+}
+
+/*-----------------------------------------------------*/
+footer{
+width: 1024px;
+margin-top: 400px;
+height: 30px;
+background: #ddd;	
+border-radius: 15px 15px 0 0;
+text-align: center;	
+}
+
+/*------------------------------------------------------------*/
+h2{
+margin: 20px;
+text-align: center;
+font-family: Arial;
+font-size: 30px;
+}
+
+p#colab{
+width: 1024px;
+text-align: left;
+font-family: Arial;
+}
